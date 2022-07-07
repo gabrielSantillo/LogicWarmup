@@ -42,16 +42,8 @@ let special_performer_3 = "Alex Bymoen";
 let special_performer_4 = "1972 Miami Dolphins";
 let special_performer_5 = "Metallica";
 
-if (special_performer_1 === "Alex Bymoen" || special_performer_1 === "Shrek" || special_performer_1 === "1972 Miami Dolphins") {
+if (special_performer_1 === "Alex Bymoen" || special_performer_1 === "Shrek" || special_performer_1 === "1972 Miami Dolphins" || special_performer_2 === "Alex Bymoen" || special_performer_2 === "Shrek" || special_performer_2 === "1972 Miami Dolphins" || special_performer_3 === "Alex Bymoen" || special_performer_3 === "Shrek" || special_performer_3 === "1972 Miami Dolphins" || special_performer_4 === "Alex Bymoen" || special_performer_4 === "Shrek" || special_performer_4 === "1972 Miami Dolphins" || special_performer_5 === "Alex Bymoen" || special_performer_5 === "Shrek" || special_performer_5 === "1972 Miami Dolphins") {
     console.log("Lucky You!");
-} else if (special_performer_2 === "Alex Bymoen" || special_performer_2 === "Shrek" || special_performer_2 === "1972 Miami Dolphins") {
-    console.log("Lucky You!");
-} else if (special_performer_3 === "Alex Bymoen" || special_performer_3 === "Shrek" || special_performer_3 === "1972 Miami Dolphins") {
-    console.log("Lucky You!");
-} else if (special_performer_4 === "Alex Bymoen" || special_performer_4 === "Shrek" || special_performer_4 === "1972 Miami Dolphins") {
-    console.log("Lucky You!");
-} else if (special_performer_5 === "Alex Bymoen" || special_performer_5 === "Shrek" || special_performer_5 === "1972 Miami Dolphins") {
-    console.log("Lucky You!");
-} else {
+}  else {
     console.log("Do nothing");
 }
