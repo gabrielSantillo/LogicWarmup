@@ -1,6 +1,7 @@
-let tickes_sold = 1000;
-let venue_capacity = 2000;
+let tickes_sold = 700;
+let venue_capacity = 1000;
 let is_sold_out = false;
+let is_repeat_show = false;
 
 if (is_sold_out === true) {
     console.log("All sold out.");
@@ -23,3 +24,14 @@ if (tickes_sold > venue_capacity) {
 } else {
     console.log("All good.")
 }
+
+if (tickes_sold / venue_capacity === 0.9 || venue_capacity >= 60000) {
+    console.log("Special case");
+} else if (tickes_sold / venue_capacity === 0.7 || venue_capacity >= 90000) {
+    console.log ("Special case");
+} else if (is_sold_out === true && is_repeat_show === true) {
+    console.log("Special case")
+} else {
+    console.log("Normal case")
+}
+ 
